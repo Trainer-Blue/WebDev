@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+    .bigbox{
+      width: auto;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .container{
+      display: grid;
+      width: 748px;
+      height: 748px;
+      grid-template-columns: 329px 198px 162px 59px;
+      grid-template-rows: 423px 141px 155px 29px;
+    }
+    .box{
+      background-color: #F0F1EC;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Write your HTML here -->
+    <div class="bigbox">
+      <div class="container">
+        <div class="box 1" style="background-color: #E72F24; border-right: solid black 9px; border-bottom: solid black 9px;"></div>
+        <div class="box 2" style="border-bottom: solid black 9px;"></div>
+        <div class="box 3" style="border-bottom: solid black 9px;"></div>
+        <div class="box 4" style="border-bottom: solid black 9px;"></div>
+        <div class="box 5" style="border-right: solid black 9px;"></div>
+        <div class="box 6"></div>
+        <div class="box 7"></div>
+        <div class="box 8" style="background-color: #004592; border-left: solid black 9px; border-bottom: solid black 11px;"></div>
+        <div class="box 9" style="border-right: solid black 9px;"></div>
+        <div class="box 10"></div>
+        <div class="box 11"></div>
+        <div class="box 12" style="border-left: solid black 9px;"></div>
+        <div class="box 13" style="border-top: solid black 9px; border-right: solid black 9px;"></div>
+        <div class="box 14" style="background-color: #F9D01E; border-top: solid black 9px;"></div>
+        <div class="box 15" style="background-color: #232629; border-left: solid black 9px; border-top: solid black 9px;"></div>
+        <div class="box 16" style="border-left: solid black 9px;"></div>
+      </div>
+    </div>
+</body>
+
+</html>
