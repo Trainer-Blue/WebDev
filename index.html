@@ -3,31 +3,87 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Redirecting...</title>
+  <title>Projects</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      background-color: #222831;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      width: 90%;
+      max-width: 1200px;
+      margin: 20px auto;
+    }
+    .project {
+      background-color: #393E46;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s;
+    }
+    .project:hover {
+      transform: scale(1.05);
+    }
+    h1 {
+      color: #00ADB5;
+    }
+    .project h3 {
+      margin: 0;
+      color: #EEEEEE;
+    }
+    .project a {
+      text-decoration: none;
+      color: inherit;
+    }
+  </style>
 </head>
 <body>
   <h1>Projects</h1>
-  <hr />
-  <p><a href="./Projects/4.3 HTML Porfolio Project/index.html"><h3>Portfolio</h3></a></p>
-  <hr />
-  <p><a href="./Projects/Resume/Resume.html"><h3>Resume</h3></a></p>
-  <hr />
-  <p><a href="./Projects/Simon Game Challenge Starting Files/index.html"><h3>Simon Game</h3></a></p>
-  <hr />
-  <p><a href="./Projects/11.3 TinDog Project/index.html"><h3>TinDog</h3></a></p>
-  <hr />
-  <p><a href="./Projects/Drum Kit Starting Files/index.html"><h3>Drum Kit</h3></a></p>
-  <hr />
-  <p><a href="./Projects/10.3 Mondrian Project/index.html"><h3>Mondrian painting</h3></a></p>
-  <hr />
-  <p><a href="./Projects/Dicee+Challenge+-+Starting+Files/dicee.html"><h3>Dice</h3></a></p>
-  <hr />
-  <p><a href="./Projects/5.4+Color+Vocab+Project/index.html"><h3>colors</h3></a></p>
-  <hr />
-  <p><a href="./Projects/8.4 Web Design Agency Project/index.html"><h3>Web design Agency</h3></a></p>
-  <hr />
-  <p><a href="./Projects/7.3 CSS Flag Project/index.html"><h3>css Flag</h3></a></p>
-  <hr />
-  <p><a href="./Projects/6.4 Motivation Meme Project/index.html"><h3>cringe Meme</h3></a></p>
+  <div class="container">
+    <div class="project">
+      <a href="./Projects/4.3 HTML Porfolio Project/index.html"><h3>Portfolio</h3></a>
+    </div>
+    <div class="project">
+      <a href="./Projects/Resume/Resume.html"><h3>Resume</h3></a>
+    </div>
+    <div class="project">
+      <a href="./Projects/Simon Game Challenge Starting Files/index.html"><h3>Simon Game</h3></a>
+    </div>
+    <div class="project">
+      <a href="./Projects/11.3 TinDog Project/index.html"><h3>TinDog</h3></a>
+    </div>
+    <div class="project">
+      <a href="./Projects/Drum Kit Starting Files/index.html"><h3>Drum Kit</h3></a>
+    </div>
+    <div class="project">
+      <a href="./Projects/10.3 Mondrian Project/index.html"><h3>Mondrian painting</h3></a>
+    </div>
+    <div class="project">
+      <a href="./Projects/Dicee+Challenge+-+Starting+Files/dicee.html"><h3>Dice</h3></a>
+    </div>
+    <div class="project">
+      <a href="./Projects/5.4+Color+Vocab+Project/index.html"><h3>Colors</h3></a>
+    </div>
+    <div class="project">
+      <a href="./Projects/8.4 Web Design Agency Project/index.html"><h3>Web design Agency</h3></a>
+    </div>
+    <div class="project">
+      <a href="./Projects/7.3 CSS Flag Project/index.html"><h3>CSS Flag</h3></a>
+    </div>
+    <div class="project">
+      <a href="./Projects/6.4 Motivation Meme Project/index.html"><h3>Cringe Meme</h3></a>
+    </div>
+  </div>
 </body>
+<footer style="color: #00ADB5;">🐳 Ishan Siddhartha 🐳</footer>
 </html>
